@@ -33,7 +33,7 @@ Monitoramento de segurança de dependências npm para Linux e Windows, com supor
 
 ```bash
 curl -fsSL \
-  https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPOSITORIO/main/install-linux.sh \
+  https://github.com/fthiago01/npm-security-monitor/main/install-linux.sh \
   -o install-linux.sh
 ```
 
@@ -49,7 +49,7 @@ less install-linux.sh
 
 ```bash
 bash install-linux.sh \
-  "https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPOSITORIO/main"
+  "https://github.com/fthiago01/npm-security-monitor/main"
 ```
 
 O instalador baixa o script principal para:
@@ -104,7 +104,7 @@ Abra o PowerShell e execute:
 
 ```powershell
 Invoke-WebRequest `
-  -Uri "https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPOSITORIO/main/install-windows.ps1" `
+  -Uri "https://github.com/fthiago01/npm-security-monitor/main/install-windows.ps1" `
   -OutFile ".\install-windows.ps1"
 ```
 
@@ -118,7 +118,7 @@ notepad .\install-windows.ps1
 
 ```powershell
 .\install-windows.ps1 `
-  -BaseUrl "https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPOSITORIO/main"
+  -BaseUrl "https://github.com/fthiago01/npm-security-monitor/main"
 ```
 
 Os arquivos serão instalados por padrão em:
